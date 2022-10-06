@@ -69,5 +69,7 @@ public class MadLibs {
         System.out.println("Вот что у нас получилось: " + userAdjective + " " + userObject + " и "
                 + secondObject + " " + userPlace + " " + userAction + " " + intention + " " + howDidItEnd );
 
+        scanner.close();
+
     }
 }
